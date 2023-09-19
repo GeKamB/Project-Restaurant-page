@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: rgb(106, 146, 13);
+    width: 400px;
+    height: 400px;    
+}

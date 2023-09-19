@@ -1,4 +1,8 @@
 # Project-Restaurant-page
+Photo by Federica Gioia: https://www.pexels.com/photo/italian-style-pizza-margharita-11230267/
+
+
+
 The Odin Project: Restaurant Page
 
 Introduction
