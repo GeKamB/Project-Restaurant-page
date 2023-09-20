@@ -1,11 +1,52 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
-.red {
-    background-color: rgb(106, 146, 13);
-    width: 400px;
-    height: 400px;    
+#content {
+    margin: 0 auto;
+    color: beige;
+    max-width: 1400px;
+    height: 100vh;
+    
+ 
+}
+  
+  h1 {
+    font-family: fantasy, sans-serif;
+    letter-spacing: .8rem;    
+    text-transform: uppercase;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-bottom: 2px solid black;
+    width: 100%;
+    
+    
+
+}
+
+ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    align-items:last baseline;
+    padding-right: 4rem;
+}
+
+
+header ul li {
+    height: 1.5rem;
+    padding: 0.5rem;
+    
+    border-radius: 20% 0 0 0;
+   border-left: 2px solid rgb(231, 6, 6);
+   border-right: 2px solid black;
+   border-top: 2px solid rgb(221, 8, 8);
 }
