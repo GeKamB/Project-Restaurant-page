@@ -5,13 +5,13 @@ const contactInfo = {
   };
   
   const openingHours = {
-    monday: "11:00 AM - 9:00 PM",
-    tuesday: "11:00 AM - 9:00 PM",
-    wednesday: "11:00 AM - 9:00 PM",
-    thursday: "11:00 AM - 9:00 PM",
-    friday: "11:00 AM - 10:00 PM",
-    saturday: "12:00 PM - 10:00 PM",
-    sunday: "12:00 PM - 9:00 PM",
+    Monday: "11:00 AM - 9:00 PM",
+    Tuesday: "11:00 AM - 9:00 PM",
+    Wednesday: "11:00 AM - 9:00 PM",
+    Thursday: "11:00 AM - 9:00 PM",
+    Friday: "11:00 AM - 10:00 PM",
+    Saturday: "12:00 PM - 10:00 PM",
+    Sunday: "12:00 PM - 9:00 PM",
   };
 
 
@@ -33,6 +33,7 @@ const contactInfo = {
             const paragraph = document.createElement('p');
             const value = contactInfo[key];
             paragraph.textContent = `${key}: ${value}`;
+            
             append2.appendChild(paragraph);
           
         }
