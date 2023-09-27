@@ -13,17 +13,10 @@ const contentDiv = document.querySelector('#content');
 const header = document.createElement('header');
 header.setAttribute('id', 'header');
 
-
-
-
-
 const h1 = document.createElement('h1');
 h1.textContent = 'Pizza Palace';
 
 const ul = document.createElement('ul');
-
-const tabContent = document.createElement('div');
-tabContent.classList.add('tabContent');
 
 menuChoices.forEach((choice, i) => {
     const li = document.createElement('li');
@@ -34,6 +27,9 @@ menuChoices.forEach((choice, i) => {
     
     
 });
+const tabContent = document.createElement('div');
+tabContent.classList.add('tabContent');
+
 
 const backgroundPage = new Image();
 backgroundPage.src = image
